@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    background: rgb(204, 204, 204);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.formA{
+    width: 50%;
+    margin-top: 10%;
+}
+.formB{
+    width: 50%;
+    margin-top: 10%;
+}
+.form-group{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 50%;
+}
+select{
+    display: block;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background: rgb(2, 157, 247);
+    color: #fff;
+}
+.boton{
+    text-align: center;
+}
+button:hover{
+    background: #fff;
+    color: rgb(2, 157, 247);
+}
